@@ -134,7 +134,7 @@ cursor: pointer;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
+    text-align: center; /*потім прибрати*/
     letter-spacing: 0.03em;
     color: #212121;
 }
