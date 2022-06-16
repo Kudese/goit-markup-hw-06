@@ -34,7 +34,7 @@ a{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #fff;
 }
@@ -46,22 +46,11 @@ a{
     line-height: 1,14;
     letter-spacing: 0.02em;
     color: #212121;
-   
 }
 .nav-list a:focus {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
     color: #2196f3;
 }
 .nav-list a:hover {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
     color: #2196f3;
 }
 .nav-login  a {
@@ -74,19 +63,12 @@ a{
    
 }
 .nav-login a:focus {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
     color: #2196f3;
 }
 .nav-login a:hover {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    color: #2196f3;
+}
+ .nav-list .curent{
     color: #2196f3;
 }
 /* footer */
@@ -103,14 +85,14 @@ a{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);}    
+    color: rgba(255, 255, 255, 0.6);}    /* напевно булоб краще задати параметри шруфту для <ul> а колір адреси ul .address . але я невпевнений*/
  /* Main-sid */
  .main-name{
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.33;
-text-align: center;
+text-align: center; /*потім змаміну зроблю*/
 letter-spacing: 0.06em;
 color: #fff;
  }
@@ -128,7 +110,6 @@ cursor: pointer;
  .button-ordrer:hover{
     color: #fff;
     background:#2196f3;
-    cursor: pointer;
  }
  .button-ordrer:active{
     color: #fff;
@@ -202,7 +183,7 @@ background: #2196F3;
     }
 .portfolio-lis h3 {
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
