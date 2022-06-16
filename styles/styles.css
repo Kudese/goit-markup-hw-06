@@ -1,9 +1,9 @@
+/* PresSet */
 .body{
     background: #e5e5e5;
     font-family: roboto; sans-serif; 
-    width: 1600px; /*потім преперу*/
+    width: 1600px; /*потім видалю*/
 }
-/* PresSet */
 ul{
     list-style: none;
 }
@@ -126,26 +126,13 @@ background: #f5f4fa;
 cursor: pointer;
  }
  .button-ordrer:hover{
-    font-family: roboto; 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    letter-spacing: 0.06em;
     color: #fff;
     background:#2196f3;
     cursor: pointer;
  }
  .button-ordrer:active{
-    font-family: roboto; 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    letter-spacing: 0.06em;
     color: #fff;
     background:#2196f3;
-    cursor: pointer;
  }
  .features h3 {
     font-style: normal;
@@ -206,21 +193,11 @@ background: #f5f4fa;
 cursor: pointer;
 }
 .selector-list li :hover{
-background: #2196F3;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1,625;
-letter-spacing: 0.03em;
 color: #FFFFFF;
+background: #2196F3;
 }
 .selector-list li :focus{
     background: #2196F3;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,625;
-    letter-spacing: 0.03em;
     color: #FFFFFF;
     }
 .portfolio-lis h3 {
