@@ -3,6 +3,10 @@
     font-family: roboto; sans-serif; 
     width: 1600px; /*потім преперу*/
 }
+/* PresSet */
+ul{
+    list-style: none;
+}
 /* Logo header footer */
 .web{
     font-family: 'raleway';
@@ -83,7 +87,6 @@
     color: #2196f3;
 }
 /* footer */
-.footer-list{}
 .address a {
     font-style: normal;
     font-weight: 400;
@@ -109,19 +112,38 @@ letter-spacing: 0.06em;
 color: #fff;
  }
  .button-ordrer{
+font-family: roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+letter-spacing: 0.03em;
+color: #212121;
+background: #f5f4fa;
+cursor: pointer;
+ }
+ .button-ordrer:hover{
     font-family: roboto; 
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
     color: #fff;
-     margin-left: 700px; /*додав від себе */
     background:#2196f3;
     cursor: pointer;
-    ;
  }
- .features {}
+ .button-ordrer:active{
+    font-family: roboto; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #fff;
+    background:#2196f3;
+    cursor: pointer;
+ }
  .features h3 {
     font-style: normal;
     font-weight: 700;
@@ -153,18 +175,60 @@ color: #fff;
     letter-spacing: 0.03em;
     color: #212121;
 }
-.our-team h3{
+.team-list h3{
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 19px;
-        text-align: center;
+        line-height: 1.18;
         letter-spacing: 0.03em;
         color: #212121;
  }
- .our-team p {
+ .team-list p {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: #757575;
  }
+/*Portfolio*/
+
+.selector-list button{
+font-family: roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+letter-spacing: 0.03em;
+color: #212121;
+background: #f5f4fa;
+cursor: pointer;
+}
+.selector-list li :hover{
+background: #2196F3;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,625;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.selector-list li :focus{
+    background: #2196F3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,625;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    }
+.portfolio-lis h3 {
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.portfolio-lis p {
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: #757575;
+}
