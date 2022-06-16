@@ -7,6 +7,9 @@
 ul{
     list-style: none;
 }
+a{
+   text-decoration: none;
+}
 /* Logo header footer */
 .web{
     font-family: 'raleway';
