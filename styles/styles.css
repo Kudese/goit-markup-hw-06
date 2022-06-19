@@ -20,14 +20,12 @@ a{
 /* Logo header footer */
 .web{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     color: var(--color-accent)
 }
 .studionav{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
 }
@@ -50,7 +48,6 @@ a{
     color: var(--color-accent);
 }
 .nav-login  a {
-    font-style: normal;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
@@ -72,7 +69,6 @@ color: var(--color-main);}
     color: rgba(255, 255, 255, 0.6);}    
     /* Main-sid */
  .main-name{
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.33;
@@ -82,29 +78,17 @@ text-transform: uppercase;
  }
  .button-ordrer{
 font-family: Roboto;
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
-
-color: #212121;
-background: #f5f4f4;
+color: var(--color-main);
+background:var(--color-accent);
 cursor: pointer;
- }
- .button-ordrer:hover{
-    color: #fff;
-    background:#2196f3;
- }
- .button-ordrer:active{
-    color: #fff;
-    background:#2196f3;
  }
  .features h3 {
     font-style: normal;
     font-weight: 700;
-    
     line-height: 1.14;
-    color: #212121;
     text-transform: uppercase;
  }
  .features p {
@@ -112,21 +96,18 @@ cursor: pointer;
     color: #757575;
  }
  .our-work{
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     color: #212121;
 }
  .our-team{
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     color: #212121;
 }
 .team-list h3{
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         color: #212121;
@@ -139,26 +120,22 @@ cursor: pointer;
 
 .selector-list button{
 font-family: roboto;
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
-
-color: #212121;
-background: #f5f4fa;
+background: var(--color-main);
 cursor: pointer;
 }
 .selector-list li :hover{
-color: #FFFFFF;
-background: #2196F3;}
+color: var(--color-main);
+background: var(--color-accent);}
 .selector-list li :focus{
-background: #2196F3;
-color: #FFFFFF; }
+background: var(--color-accent);
+color: var(--color-main); }
 .portfolio-lis h2 {
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-color: #212121;
 }
 .portfolio-lis p {
 font-size: 16px;
