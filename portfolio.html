@@ -12,82 +12,105 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body class="body">
-    <header > 
-        <nav class="nav-header container">
-            <a href="" class="nav-logo"> <span class="web">Web</span><span class="studionav">Studio</span> </a>
-            <ul class="nav-list">
-                <li><a href="./index.html" >Студия</a></li>
-                <li><a href="./portfolio.html" class="curent">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
-            </ul>
-            <ul class="nav-login">
-                <li> <a href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-                <li> <a href="tel:380961111111">+38 099 111 11 11</a> </li>
-            </ul>
-        </nav>
-    </header>
+    <div class="header">
+        <header class="container" > 
+            <nav class="nav-header container">
+                <a href="" class="nav-logo"> <span class="web">Web</span><span class="studionav">Studio</span> </a>
+                <ul class="nav-list">
+                    <li><a href="./index.html" >Студия</a></li>
+                    <li><a href="./portfolio.html" class="curent">Портфолио</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+                <ul class="nav-login">
+                    <li> <a href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
+                    <li> <a href="tel:380961111111">+38 099 111 11 11</a> </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
     <main>
-       <div class="container">
-        <section>      
-            <h1 hidden>Портфолио</h1> <!--Нужно скрыть -->
-         <!--Селектор-->
-            <ul class="selector-list container">
+        <section class="section"> 
+            <div class="container">  
+                <h1 hidden>Портфолио</h1> <!--Нужно скрыть -->
+             <!--Селектор-->
+                <ul class="selector-list container">
                 <li><button type="button">Все</button></li>
                 <li><button type="button">Веб-сайты</button></li>
                 <li><button type="button">Приложения</button></li>
                 <li><button type="button">Дизайн</button></li>
                 <li><button type="button">Маркетинг</button></li>
-            </ul>
-            <!--Примеры-->
+                </ul>
+                 <!--Примеры-->
                 <ul class="portfolio-lis">
                     <li><a href=""><img src="./images/0.jpg" alt="Клиенты" width="370">
-                        <h2>Технокряк</h2>
-                        <p>Веб-сай</p> </a>
+                          <div class="border">
+                            <h2>Технокряк</h2>
+                            <p>Веб-сай</p> </div>                      
+                        </a>
                     </li>
                     <li><a href=""><img src="./images/1.jpg" alt="Басткетболисты" width="370">
+                        <div class="border">
                         <h2>Постер New Orlean vs Golden Sta</h2>
-                        <p>Дизайн</p></a>
+                        <p>Дизайн</p>
+                        </div>
+                        </a>
                     </li>
                     <li><a href=""><img src="./images/2.jpg" alt="Ресторат море продуктов" width="370">
+                        <div class="border">
                         <h2>Ресторан Seafood</h2>
-                        <p>Приложение</p>     
+                        <p>Приложение</p>
+                        </div>
                         </a>
                     </li>
                     <li><a href=""><img src="./images/3.jpg" alt="Наушники" width="370">
+                        <div class="border">
                         <h2>Проект Prime</h2>
-                        <p>Маркетин</p>   
+                        <p>Маркетин</p>  
+                        </div>
+                         
                         </a>
                     </li>
                     <li><a href=""><img src="./images/4.jpg" alt="Коробки" width="370">
+                        <div class="border">
                         <h2>Проект Boxes</h2>
                         <p>Приложение</p>   
+                        </div>
                         </a>
                     </li>
                     <li><a href=""><img src="./images/5.jpg" alt="Моноблок от епел" width="370">
-                        <h2>Inspiration has no Borders</h2>
-                        <p>Веб-сайт</p>   
+                        <div class="border">
+                            <h2>Inspiration has no Borders</h2>
+                            <p>Веб-сайт</p>  
+                        </div>
                        </a>
                      </li>
                     <li><a href=""><img src="./images/6.jpg" alt="Журнал" width="370">
-                        <h2>Издание Limited Edition</h2>
-                        <p>Дизайн</p>     
+                        <div class="border">
+                            <h2>Издание Limited Edition</h2>
+                            <p>Дизайн</p>  
+                        </div>
                         </a>
                    </li>
                     <li><a href=""><img src="./images/7.jpg" alt="Бирка" width="370">
-                        <h2>Проект LAB</h2>
-                        <p>Маркетинг</p>     
+                        <div class="border">
+                            <h2>Проект LAB</h2>
+                            <p>Маркетинг</p>   
+                        </div>
                         </a>
                     </li>
                     <li><a href=""><img src="./images/8.jpg" alt="Ноубук" width="370">
-                        <h2>Growing Business</h2>
-                        <p>Приложение</p>     
+                        <div class="border">
+                            <h2>Growing Business</h2>
+                            <p>Приложение</p>   
+                        </div>
                         </a>
                     </li>
                 </ul>
+            </div>
         </section>
-       </div>
     </main>
-    <footer class="footer container">
+    <div class="footer">
+    <footer class="container">
         <a href="" class="footer-logo"><span class="web">Web</span><span class="studio">Studio</span> </a>
         <address>
             <ul>
@@ -97,5 +120,6 @@
             </ul>
         </address>                  
     </footer>
+    </div>
 </body>
 </html>
