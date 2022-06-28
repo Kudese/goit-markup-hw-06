@@ -137,7 +137,8 @@ font-style: normal;
 line-height: 1.71;
 color: var(--color-addres)} 
 .footer{
-background:var(--color-b-footer);   
+background:var(--color-b-footer); 
+padding: 60px 0;  
 }
 .footer-logo{
     display: inline-block;
@@ -170,7 +171,7 @@ text-transform: uppercase;
  padding: 10px 32px;
  border: transparent;
  border-radius: 4px;
- margin: 30px;
+ margin-top: 30px;
  
 font-family: Roboto;
 font-weight: 500;
@@ -247,7 +248,7 @@ cursor: pointer;
 }
 
 .team-list h3{
-    padding-top: 30px;
+    margin-top: 30px;
         font-weight: 500;
         font-size: 16px;
         text-align: center;
@@ -257,8 +258,7 @@ cursor: pointer;
     font-size: 16px;
     color: var(--color-features);
     text-align: center;
-    margin-bottom: 0;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
  }
 
 /*Portfolio*/
