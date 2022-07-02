@@ -113,9 +113,15 @@ img{
     margin-right: 50px;
 }
 .nav-login  a {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--color-login) ;
+}
+.icon-log{
+    margin-right: 10px;
+    fill: currentColor ;
 }
 .nav-login a:focus {
     color: var(--color-accent);
@@ -126,6 +132,7 @@ img{
  .nav-list .curent{
     color: var(--color-accent);
 }
+
 /* footer */
 .address a {
 font-style: normal;
@@ -149,11 +156,19 @@ padding: 60px 0;
 }
     
 /* Main-sid */
-
 .hero-title{
     text-align: center;
-     background: var(--color-b-footer) ; /* потім приберу */
-    padding: 200px 0;}
+    background-color: var(--color-b-footer) ; 
+    max-width: 1600px;
+    height: 600px;
+   background-image: linear-gradient(to top,
+   rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
+   url("../images/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 200px 0;
+  }
 
  .main-name{
 width: 696px;
@@ -196,6 +211,8 @@ cursor: pointer;
  .features li:not(:last-child){
     margin-right: 30px;
  }
+
+
  .features h3 {
     margin-bottom: 10px;
     font-style: normal;
@@ -208,6 +225,17 @@ cursor: pointer;
     line-height: 1.71;
     color: var(--color-features);
  }
+ .features svg{
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background-color: var(--color-bselector);
+    border-radius: 4px;
+    margin-bottom: 30px;
+   padding: 25px 100px; 
+    
+ }
+ 
  .our-work-section{
     padding-top: 0;
  }
@@ -285,10 +313,18 @@ background: var(--color-bselector);
 
 .selector-list li :hover{
 color: var(--color-main);
-background: var(--color-accent);}
+background: var(--color-accent);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 .selector-list li :focus{
 background: var(--color-accent);
-color: var(--color-main); }
+color: var(--color-main);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+ }
+
+.portfolio-lis li:hover, .portfolio-lis li:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .portfolio-lis h2 {
     margin-bottom: 4px;
 font-size: 18px;
