@@ -356,8 +356,6 @@ margin-bottom: 50px;
 }
 .client-list{
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .client-list .link{
     display: flex;
