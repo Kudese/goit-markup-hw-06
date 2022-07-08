@@ -41,7 +41,7 @@
                  <h1 class="main-name">
                     Эффективные решения для вашего бизнеса
                 </h1>
-                 <button type="button" class="button-ordrer"> Заказать услугу  </button> <!--нужно уточнить атрибут-->
+                 <button data-modal-open  class="button-ordrer"> Заказать услугу  </button> <!--нужно уточнить атрибут-->
                 </div>
              </section>
              <!--Особености-->
@@ -335,5 +335,15 @@
            
              </div>
         </footer>  
+        <div data-modal class="backdrop is-hidden">
+            <div class="modal-window">
+            <button class="b-model-close" data-modal-close>
+                <svg width="30px" height="30px">
+                    <use href="./images/icons.svg#close"></use>
+                </svg>
+            </button>
+            </div>
+        </div>
+        <script src="./modal.js"></script>
 </body>
 </html>
