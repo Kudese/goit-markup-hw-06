@@ -297,7 +297,10 @@ img {
 
 }
 
-.form{
+.form-fild{
+    position: relative;
+}
+.form-label {
     display: block;
     font-size: 12px;
     line-height: 1.16;
@@ -305,10 +308,18 @@ img {
 
     color: var(--color-features);
 }
-.form-input{
 
+.form-input {
+    width: 100%;
+    outline: none;
+    padding: 14px 15px;
 }
 
+.form-fild svg{
+    position: absolute;
+    display: block;
+    outline: red;
+}
 
 /* Main-sid */
 .hero-title {

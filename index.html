@@ -367,26 +367,35 @@
             </button>
             <h2>Залиште свої дані, ми вам передзвонимо</h2>
             <form name="main-form" autocomplete="off">
-                <label class="form" for="user-name">
-                    <svg>
-                        <use></use>
+                <div class="form-fild">
+                    <svg class="user" width="18px" height="18px">
+                        <use href="./images/icons.svg#icon-person-dp"></use>
                     </svg>
-                </label>
-                <input id="user-name" name="name" type="text" class="form-input">
+                    <label class="form-label" for="user-name">
+                    </label>
+                    <input id="user-name" name="name" type="text" class="form-input">
 
-                <label class="form" for="user-email">
-                    <svg>
-                        <use></use>
-                    </svg>
-                </label>
-                <input id="user-email" name="name" type="text" class="form-input">
+                </div>
 
-                <label class="form" for="user-fone">
-                    <svg>
-                        <use></use>
+                <div class="form-fild">
+                    <svg class="mail" width="18px" height="18px">
+                        <use href="./images/icons.svg#icon-phone-bp"></use>
                     </svg>
-                </label>
-                <input id="user-fone" name="name" type="text" class="form-input">
+
+                    <label class="form-label" for="user-email">
+                    </label>
+                    <input id="user-email" name="name" type="email" class="form-input">
+                </div>
+
+                <div class="form-fild">
+                    <svg class="fone" width="18px" height="18px">
+                        <use href="./images/icons.svg#icon-email-dp"></use>
+                    </svg>
+
+                    <label class="form-label" for="user-fone">
+                    </label>
+                    <input id="user-fone" name="name" type="tel" class="form-input">
+                </div>
 
             </form>
         </div>
