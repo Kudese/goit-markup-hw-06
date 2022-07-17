@@ -365,38 +365,42 @@
                     <use href="./images/icons.svg#close"></use>
                 </svg>
             </button>
-            <h2>Залиште свої дані, ми вам передзвонимо</h2>
+            <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
             <form name="main-form" autocomplete="off">
+                <label class="form-label" for="user-name">Имя </label>
                 <div class="form-fild">
+                    <input id="user-name" name="name" type="text" class="form-input">
                     <svg class="user" width="18px" height="18px">
                         <use href="./images/icons.svg#icon-person-dp"></use>
                     </svg>
-                    <label class="form-label" for="user-name">
-                    </label>
-                    <input id="user-name" name="name" type="text" class="form-input">
-
                 </div>
 
+                <label class="form-label" for="user-fone">Телефон </label>
                 <div class="form-fild">
+                    <input id="user-email" name="name" type="email" class="form-input">
                     <svg class="mail" width="18px" height="18px">
                         <use href="./images/icons.svg#icon-phone-bp"></use>
                     </svg>
-
-                    <label class="form-label" for="user-email">
-                    </label>
-                    <input id="user-email" name="name" type="email" class="form-input">
                 </div>
-
+                <label class="form-label" for="user-email">Почта
+                </label>
                 <div class="form-fild">
+                    <input id="user-fone" name="name" type="tel" class="form-input">
                     <svg class="fone" width="18px" height="18px">
                         <use href="./images/icons.svg#icon-email-dp"></use>
                     </svg>
-
-                    <label class="form-label" for="user-fone">
-                    </label>
-                    <input id="user-fone" name="name" type="tel" class="form-input">
                 </div>
-
+                <label for="user-text" class="form-label">Комментарий </label>
+                <textarea class="user-text" id="user-text" name="user-text" cols="30" rows="5"
+                    placeholder="Введите текст"></textarea>
+                <div>
+                    <svg>
+                        <use></use>
+                    </svg>
+                    <label for=""></label>
+                    <input type="checkbox">
+                    <p>Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></p>
+                </div>
             </form>
         </div>
     </div>
