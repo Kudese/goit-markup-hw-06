@@ -248,7 +248,7 @@ img {
 }
 
 .send-mail {
-    margin-left: 93px;
+    margin-left: auto;
 
 }
 
@@ -268,6 +268,7 @@ img {
     color: var(--color-main);
     height: 50px;
     width: 358px;
+    padding: 15px 16px;
     margin-right: 12px;
     background-color: var(--color-b-footer);
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -284,7 +285,8 @@ img {
     justify-content: space-between;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.86px;
+    line-height: 1.86;
+    letter-spacing: 0.06em;
     padding: 10px 29px;
     width: 200px;
     height: 50px;
@@ -307,15 +309,14 @@ img {
     height: 100%;
 
     background-color: rgba(0, 0, 0, 0.2);
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: opacity 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
-    visibility: hidden;
     opacity: 0;
     pointer-events: none;
-
 }
+
 
 .modal-window {
     position: absolute;
@@ -343,7 +344,10 @@ img {
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--color-main);
-
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+.b-model-close:hover,.b-model-close:focus  {
+    fill: var(--color-accent);
 }
 
 .form-title {
@@ -403,6 +407,7 @@ img {
     resize: none;
     outline: none;
     border-radius: 4px;
+    border-color: rgba(33, 33, 33, 0.2);
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -431,7 +436,9 @@ img {
     margin-top: 20px;
     padding-left: 36px;
 }
-
+.checkbox-label{
+    color: var(--color-features);
+}
 
 
 .checkbox-icon {
@@ -469,10 +476,20 @@ img {
 }
 
 .form-send {
+    display: block;
     width: 200px;
     height: 50px;
     padding: 10px 52px;
-    margin: 30px 124px 0 124px;
+    margin-top: 30px ;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
     color: var(--color-main);
     background-color: var(--color-accent);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
